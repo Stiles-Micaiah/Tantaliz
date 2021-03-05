@@ -8,16 +8,13 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="../assets/OneDrive-2021-03-04/WallpaperStudio10-677.jpg" class="car-bg-blur d-block w-100" alt="...">
-      <img src="../assets/OneDrive-2021-03-04/WallpaperStudio10-677.jpg" class="car-img-clr d-block w-100" alt="...">
+      <img src="../assets/OneDrive-2021-03-04/WallpaperStudio10-677.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="../assets/OneDrive-2021-03-04/WallpaperStudio10-20936.jpg" class="car-bg-blur d-block w-100" alt="...">
-      <img src="../assets/OneDrive-2021-03-04/WallpaperStudio10-20936.jpg" class="car-img-clr d-block w-100" alt="...">
+      <img src="../assets/OneDrive-2021-03-04/WallpaperStudio10-20936.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="../assets/OneDrive-2021-03-04/WallpaperStudio10-14975.jpg" class="car-bg-blur d-block w-100" alt="...">
-      <img src="../assets/OneDrive-2021-03-04/WallpaperStudio10-14975.jpg" class="car-img-clr d-block w-100" alt="...">
+      <img src="../assets/OneDrive-2021-03-04/WallpaperStudio10-14975.jpg" class="d-block w-100" alt="...">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="prev">
@@ -46,19 +43,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-.car-bg-blur {
-filter: blur(8px);
--webkit-filter: blur(8px);
-};
-.car-img-clr {
-position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  width: 80%;
-  padding: 20px;
-}
-</style>
