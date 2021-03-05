@@ -1,9 +1,10 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div>
-  <router-view/>
+  <nav class="navbar navbar-dark sticky-top bg-dark">
+    <!-- Navbar content -->
+    <a href="#">Hello Fantastical World</a>
+  </nav>
+
+  <router-view />
 </template>
 
 <style>
