@@ -28,21 +28,23 @@
 </div>
 
 <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <HomeListing src="../assets/OneDrive-2021-03-07/1e995e4915723cdb0d238270bfa58623.jpg" title_of="title" body="This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer." timesince="00:00"/>
   </div>
   <Footer/>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+// import HelloWorld from '@/components/HelloWorld.vue'
 import Footer from '@/components/Footer.vue'
+import HomeListing from '@/components/HomeListing.vue'
 
 export default {
   name: 'Home',
   components: {
-    HelloWorld,
-    Footer
+    // HelloWorld,
+    Footer,
+    HomeListing
   }
 }
 </script>

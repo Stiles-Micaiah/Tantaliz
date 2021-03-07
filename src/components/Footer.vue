@@ -1,38 +1,13 @@
 <template>
-  <div class="Footer row">
-    <div class="card col" style="width: 18rem">
+  <div class="Footer d-flex justify-content-center row w-100">
+    <div class="card col-3" style="width: 18rem">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+        <h5 class="card-title">Work in progress</h5>
+        <h6 class="card-subtitle mb-2 text-muted">But fear not</h6>
         <p class="card-text">
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          While this is still a work in progress, you can check out some of my other projects. finished or otherwise.
         </p>
-        <a href="#" class="card-link">Card link</a>
-        <a href="#" class="card-link">Another link</a>
-      </div>
-    </div>
-    <div class="card col" style="width: 18rem">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-        <p class="card-text">
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </p>
-        <a href="#" class="card-link">Card link</a>
-        <a href="#" class="card-link">Another link</a>
-      </div>
-    </div>
-    <div class="card col" style="width: 18rem">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-        <p class="card-text">
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </p>
-        <a href="#" class="card-link">Card link</a>
+        <a href="https://stiles-micaiah.github.io/Retro-Tunes/" class="card-link">iTunes Search</a>
         <a href="#" class="card-link">Another link</a>
       </div>
     </div>
